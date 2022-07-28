@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ondeck</title>
   </head>
   <body>
     <header class="header">
@@ -13,7 +19,7 @@
       <nav class="nav">
         <ul class="menu">
           <li class="menu__item">
-            <a href="menu__link">Products</a>
+            <a class="menu__link" href="$">Products</a>
             <div class="sub-menu">
               <p class="sub-menu__title">Products</p>
               <div class="sub-menu__item">
@@ -49,22 +55,36 @@
             </div>
           </li>
           <li class="menu__item">
-            <a href="menu__link">Challenges</a>
+            <a class="menu__link" href="#">Challenges</a>
           </li>
           <li class="menu__item">
-            <a href="menu__link">Resources</a>
+            <a class="menu__link" href="#">Resources</a>
           </li>
           <li class="menu__item">
-            <a href="menu__link">Others Linsk</a>
+            <a class="menu__link" href="#">Others Linsk</a>
+            <div class="sub-menu">
+              <p class="sub-menu__title">Products</p>
+              <div class="sub-menu__item">
+                <div class="sub-menu__item__title">
+                  <img src="./Assets/Spense_Icon.svg" alt="" />
+                  <p>Spense</p>
+                </div>
+                <p class="sub-menu__item__text">
+                  Spense is a landing page for writers. Great for practicing
+                  absolute positioning and flex layouts.
+                </p>
+              </div>
+              </div>
+            </div>
           </li>
-          <div class="options">
-            <button>Sign in</button>
-            <button>Try for free</button>
-          </div>
         </ul>
-        <div class="menu-icon--closed"></div>
-        <div class="menu-icon--opened"></div>
       </nav>
+      <div class="options">
+        <button class="button button-simple">Sign in</button>
+        <button class="button">Try for free</button>
+      </div>
+      <div class="menu-icon--closed active"></div>
+      <div class="menu-icon--opened"></div>
     </header>
 
     <section class="hero">
@@ -72,7 +92,7 @@
         <h1 class="info__title">
           Ondeck is your remote <span>conference calling tool</span>
         </h1>
-        <p class="info__text">
+        <p class="info__text text">
           Ondeck is a service that allows you to create beautiful, online, and
           encrypted video calls for you and your remote team.
         </p>
