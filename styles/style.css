@@ -1,0 +1,51 @@
+:root {
+  --main-color: #133416;
+  --secondary-color: #f7b300;
+  --bg-color: #f3ede5;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --gray-color: #9e9b98;
+
+  --max-width: 1150px;
+  --padding-mobile: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
+/* header */
+
+/* menu */
+
+.menu-icon--opened {
+  width: 25px;
+  height: 25px;
+  background-image: url("../Assets/Close.svg");
+}
+
+.menu-icon--closed {
+  background-image: url("../Assets/Menu.svg");
+  width: 1.5rem;
+  height: 25px;
+}
+
+.menu-icon--closed,
+.menu-icon--opened {
+  background-repeat: no-repeat;
+}
